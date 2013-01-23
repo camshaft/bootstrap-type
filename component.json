@@ -1,0 +1,13 @@
+{
+  "name": "bootstrap-type",
+  "repo": "CamShaft/bootstrap-type",
+  "description": "Bootstrap Type Component",
+  "version": "2.2.2",
+  "keywords": [],
+  "dependencies": {},
+  "development": {},
+  "license": "APLv2",
+  "styles": [
+    "bootstrap-type.css"
+  ]
+}
