@@ -61,7 +61,8 @@ cite {
   color: #999999;
 }
 
-a.muted:hover {
+a.muted:hover,
+a.muted:focus {
   color: #808080;
 }
 
@@ -69,7 +70,8 @@ a.muted:hover {
   color: #c09853;
 }
 
-a.text-warning:hover {
+a.text-warning:hover,
+a.text-warning:focus {
   color: #a47e3c;
 }
 
@@ -77,7 +79,8 @@ a.text-warning:hover {
   color: #b94a48;
 }
 
-a.text-error:hover {
+a.text-error:hover,
+a.text-error:focus {
   color: #953b39;
 }
 
@@ -85,7 +88,8 @@ a.text-error:hover {
   color: #3a87ad;
 }
 
-a.text-info:hover {
+a.text-info:hover,
+a.text-info:focus {
   color: #2d6987;
 }
 
@@ -93,8 +97,21 @@ a.text-info:hover {
   color: #468847;
 }
 
-a.text-success:hover {
+a.text-success:hover,
+a.text-success:focus {
   color: #356635;
+}
+
+.text-left {
+  text-align: left;
+}
+
+.text-right {
+  text-align: right;
+}
+
+.text-center {
+  text-align: center;
 }
 
 h1,
@@ -206,8 +223,10 @@ ol.inline {
 ul.inline > li,
 ol.inline > li {
   display: inline-block;
+  *display: inline;
   padding-right: 5px;
   padding-left: 5px;
+  *zoom: 1;
 }
 
 dl {
@@ -282,9 +301,9 @@ blockquote {
 
 blockquote p {
   margin-bottom: 0;
-  font-size: 16px;
+  font-size: 17.5px;
   font-weight: 300;
-  line-height: 25px;
+  line-height: 1.25;
 }
 
 blockquote small {
